@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SoloMatrix - Store and manage medical histories securely.">
+  <meta name="keywords" content="health, medical history, family history, secure storage">
+  <title>Health Professional Portal - SoloMatrix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="health-professional-styles.css"> <!-- Specific CSS for health professionals -->
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Health Professional Portal</h1>
+      <p class="hero-text">Search and view complete medical records securely.</p>
+    </div>
+  </header>
+
+  <main class="health-professional-content">
+    <section class="search-section">
+      <h2>Search Medical Records</h2>
+      <form action="#" method="GET">
+        <label for="search-input">Enter Patient ID or Name:</label>
+        <input type="text" id="search-input" name="search-input" required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="results-section">
+      <h2>Search Results</h2>
+      <div class="results-container">
+        <!-- Display search results dynamically here -->
+        <div class="result-item">
+          <h3>Patient Name: John Doe</h3>
+          <p><strong>Date of Birth:</strong> 1980-05-25</p>
+          <p><strong>Medical History:</strong></p>
+          <ul>
+            <li>2023-05-15 - High Blood Pressure - Prescription Medication</li>
+            <li>2022-12-10 - Allergy Reaction - Antihistamines</li>
+            <!-- Additional medical records as needed -->
+          </ul>
+          <p><strong>Family History:</strong></p>
+          <ul>
+            <li>Father: Known allergies, Diabetes</li>
+            <li>Mother: Hypertension, High Cholesterol</li>
+            <!-- Additional family history as available -->
+          </ul>
+        </div>
+        <!-- Repeat this structure for each search result -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>SoloMatrix</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <form class="subscribe-form" action="#" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 SoloMatrix. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
